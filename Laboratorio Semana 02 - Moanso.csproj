@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6487DF4F-CB15-4E29-9BEF-78DD2B5BC13C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Laboratorio_Semana_02___Moanso</RootNamespace>
+    <AssemblyName>Laboratorio Semana 02 - Moanso</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\..\..\5TO CICLO\ARQUI\ReadDistanceArduinoV3-main\ReadDistanceArduinoV3\bin\Debug\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnularNotaIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnularNotaIngreso.Designer.cs">
+      <DependentUpon>AnularNotaIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnularNotaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnularNotaSalida.Designer.cs">
+      <DependentUpon>AnularNotaSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnularOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnularOP.Designer.cs">
+      <DependentUpon>AnularOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Central.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Central.Designer.cs">
+      <DependentUpon>Central.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="ControlProdA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlProdA.Designer.cs">
+      <DependentUpon>ControlProdA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlProdE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlProdE.Designer.cs">
+      <DependentUpon>ControlProdE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlProdF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlProdF.Designer.cs">
+      <DependentUpon>ControlProdF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlProdP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlProdP.Designer.cs">
+      <DependentUpon>ControlProdP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cronograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cronograma.Designer.cs">
+      <DependentUpon>Cronograma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empresa.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionMateriales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionMateriales.Designer.cs">
+      <DependentUpon>GestionMateriales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialConsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialConsumo.Designer.cs">
+      <DependentUpon>HistorialConsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialNotaIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialNotaIngreso.Designer.cs">
+      <DependentUpon>HistorialNotaIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialNotaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialNotaSalida.Designer.cs">
+      <DependentUpon>HistorialNotaSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialReporteMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialReporteMaterial.Designer.cs">
+      <DependentUpon>HistorialReporteMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidenciaCalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidenciaCalidad.Designer.cs">
+      <DependentUpon>IncidenciaCalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidenciasProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidenciasProd.Designer.cs">
+      <DependentUpon>IncidenciasProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProduccion.Designer.cs">
+      <DependentUpon>MantenedorProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo.cs" />
+    <Compile Include="NotaIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotaIngreso.Designer.cs">
+      <DependentUpon>NotaIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orden_Produccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orden_Produccion.Designer.cs">
+      <DependentUpon>Orden_Produccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producción.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Programacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programacion.Designer.cs">
+      <DependentUpon>Programacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarNotaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarNotaSalida.Designer.cs">
+      <DependentUpon>RegistrarNotaSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroOP.Designer.cs">
+      <DependentUpon>RegistroOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteMaterial.Designer.cs">
+      <DependentUpon>ReporteMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolicitudMaterial.Designer.cs">
+      <DependentUpon>SolicitudMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubAreas.Designer.cs">
+      <DependentUpon>SubAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.cs" />
+    <Compile Include="VerificacionCalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificacionCalidad.Designer.cs">
+      <DependentUpon>VerificacionCalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewOP.Designer.cs">
+      <DependentUpon>ViewOP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnularNotaSalida.resx">
+      <DependentUpon>AnularNotaSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnularOP.resx">
+      <DependentUpon>AnularOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlProdA.resx">
+      <DependentUpon>ControlProdA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlProdE.resx">
+      <DependentUpon>ControlProdE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlProdF.resx">
+      <DependentUpon>ControlProdF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlProdP.resx">
+      <DependentUpon>ControlProdP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cronograma.resx">
+      <DependentUpon>Cronograma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionMateriales.resx">
+      <DependentUpon>GestionMateriales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialConsumo.resx">
+      <DependentUpon>HistorialConsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialNotaSalida.resx">
+      <DependentUpon>HistorialNotaSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialReporteMaterial.resx">
+      <DependentUpon>HistorialReporteMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidenciaCalidad.resx">
+      <DependentUpon>IncidenciaCalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidenciasProd.resx">
+      <DependentUpon>IncidenciasProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProduccion.resx">
+      <DependentUpon>MantenedorProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programacion.resx">
+      <DependentUpon>Programacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarNotaSalida.resx">
+      <DependentUpon>RegistrarNotaSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroOP.resx">
+      <DependentUpon>RegistroOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteMaterial.resx">
+      <DependentUpon>ReporteMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolicitudMaterial.resx">
+      <DependentUpon>SolicitudMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubAreas.resx">
+      <DependentUpon>SubAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificacionCalidad.resx">
+      <DependentUpon>VerificacionCalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewOP.resx">
+      <DependentUpon>ViewOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\Screenshot_20240826_170743_Insta.jpg" />
+    <None Include="Resources\Screenshot_20240826_170743_Instagram.jpg" />
+    <EmbeddedResource Include="AnularNotaIngreso.resx">
+      <DependentUpon>AnularNotaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Central.resx">
+      <DependentUpon>Central.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialNotaIngreso.resx">
+      <DependentUpon>HistorialNotaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotaIngreso.resx">
+      <DependentUpon>NotaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orden_Produccion.resx">
+      <DependentUpon>Orden_Produccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
