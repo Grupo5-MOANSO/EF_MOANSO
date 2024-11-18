@@ -48,6 +48,7 @@
             this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.historialDeReporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.centralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.móduloDeProduccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenDeProduccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +66,7 @@
             this.incidenciaDeProduccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incidenciaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoDeMaterialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.centralToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -91,8 +93,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.centralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.centralToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.contextMenuStrip3.SuspendLayout();
@@ -164,19 +164,19 @@
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(240, 34);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(270, 34);
             this.toolStripMenuItem7.Text = "Registrar N.S.";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(240, 34);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(270, 34);
             this.toolStripMenuItem8.Text = "Anular N.S.";
             // 
             // historialDeNSToolStripMenuItem
             // 
             this.historialDeNSToolStripMenuItem.Name = "historialDeNSToolStripMenuItem";
-            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(240, 34);
+            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.historialDeNSToolStripMenuItem.Text = "Historial de N.S.";
             // 
             // toolStripMenuItem9
@@ -243,6 +243,12 @@
             this.historialDeReporteToolStripMenuItem.Size = new System.Drawing.Size(271, 34);
             this.historialDeReporteToolStripMenuItem.Text = "Historial de Reporte";
             // 
+            // centralToolStripMenuItem
+            // 
+            this.centralToolStripMenuItem.Name = "centralToolStripMenuItem";
+            this.centralToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.centralToolStripMenuItem.Text = "Central";
+            // 
             // móduloDeProduccionToolStripMenuItem
             // 
             this.móduloDeProduccionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -271,19 +277,19 @@
             // registrarToolStripMenuItem1
             // 
             this.registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
-            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(220, 34);
             this.registrarToolStripMenuItem1.Text = "Registrar";
             // 
             // anularToolStripMenuItem
             // 
             this.anularToolStripMenuItem.Name = "anularToolStripMenuItem";
-            this.anularToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.anularToolStripMenuItem.Size = new System.Drawing.Size(220, 34);
             this.anularToolStripMenuItem.Text = "Anular";
             // 
             // visualizarOPToolStripMenuItem
             // 
             this.visualizarOPToolStripMenuItem.Name = "visualizarOPToolStripMenuItem";
-            this.visualizarOPToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.visualizarOPToolStripMenuItem.Size = new System.Drawing.Size(220, 34);
             this.visualizarOPToolStripMenuItem.Text = "Visualizar O.P";
             // 
             // programaciónToolStripMenuItem
@@ -365,6 +371,12 @@
             this.pedidoDeMaterialToolStripMenuItem.Name = "pedidoDeMaterialToolStripMenuItem";
             this.pedidoDeMaterialToolStripMenuItem.Size = new System.Drawing.Size(308, 34);
             this.pedidoDeMaterialToolStripMenuItem.Text = "SubAreas de Produccion";
+            // 
+            // centralToolStripMenuItem1
+            // 
+            this.centralToolStripMenuItem1.Name = "centralToolStripMenuItem1";
+            this.centralToolStripMenuItem1.Size = new System.Drawing.Size(308, 34);
+            this.centralToolStripMenuItem1.Text = "Central";
             // 
             // groupBox1
             // 
@@ -491,12 +503,12 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.97216F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 287F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 292F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 282F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 548);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 283F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 563);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1874, 373);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1874, 358);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // linkLabelAgregarItem
@@ -595,18 +607,6 @@
             this.button1.Text = "VOLVER CENTRAL";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // centralToolStripMenuItem
-            // 
-            this.centralToolStripMenuItem.Name = "centralToolStripMenuItem";
-            this.centralToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.centralToolStripMenuItem.Text = "Central";
-            // 
-            // centralToolStripMenuItem1
-            // 
-            this.centralToolStripMenuItem1.Name = "centralToolStripMenuItem1";
-            this.centralToolStripMenuItem1.Size = new System.Drawing.Size(308, 34);
-            this.centralToolStripMenuItem1.Text = "Central";
             // 
             // NotaIngreso
             // 
