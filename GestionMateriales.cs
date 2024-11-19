@@ -218,5 +218,10 @@ namespace Laboratorio_Semana_02___Moanso
             C.Show();
             this.Close();
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

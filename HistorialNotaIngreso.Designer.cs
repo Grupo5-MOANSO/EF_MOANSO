@@ -47,6 +47,7 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
             this.historialDeReporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.centralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.móduloDeProduccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenDeProduccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,12 +68,12 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.centralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -110,27 +111,27 @@
             this.toolStripMenuItem5,
             this.toolStripMenuItem6});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem3.Text = "Nota de Ingreso";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem4.Text = "Registrar N.I.";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem5.Text = "Anular N.I.";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem6.Text = "Historial N.I.";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
@@ -141,27 +142,27 @@
             this.toolStripMenuItem9,
             this.historialDeNSToolStripMenuItem});
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem7.Text = "Nota de Salida";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(240, 34);
             this.toolStripMenuItem8.Text = "Registrar N.S.";
             this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(240, 34);
             this.toolStripMenuItem9.Text = "Anular N.S.";
             this.toolStripMenuItem9.Click += new System.EventHandler(this.toolStripMenuItem9_Click);
             // 
             // historialDeNSToolStripMenuItem
             // 
             this.historialDeNSToolStripMenuItem.Name = "historialDeNSToolStripMenuItem";
-            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(240, 34);
             this.historialDeNSToolStripMenuItem.Text = "Historial de N.S.";
             this.historialDeNSToolStripMenuItem.Click += new System.EventHandler(this.historialDeNSToolStripMenuItem_Click);
             // 
@@ -173,7 +174,7 @@
             this.historialDeConsumoToolStripMenuItem,
             this.consultarEstadoInventarioToolStripMenuItem});
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem10.Text = "Inventario";
             // 
             // materialesToolStripMenuItem
@@ -215,7 +216,7 @@
             this.toolStripMenuItem12,
             this.historialDeReporteToolStripMenuItem});
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem11.Text = "Reporte de Material";
             // 
             // toolStripMenuItem12
@@ -229,6 +230,13 @@
             this.historialDeReporteToolStripMenuItem.Name = "historialDeReporteToolStripMenuItem";
             this.historialDeReporteToolStripMenuItem.Size = new System.Drawing.Size(271, 34);
             this.historialDeReporteToolStripMenuItem.Text = "Historial de Reporte";
+            // 
+            // centralToolStripMenuItem
+            // 
+            this.centralToolStripMenuItem.Name = "centralToolStripMenuItem";
+            this.centralToolStripMenuItem.Size = new System.Drawing.Size(269, 34);
+            this.centralToolStripMenuItem.Text = "Central";
+            this.centralToolStripMenuItem.Click += new System.EventHandler(this.centralToolStripMenuItem_Click);
             // 
             // móduloDeProduccionToolStripMenuItem
             // 
@@ -375,6 +383,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
+            this.Column5,
             this.Column3,
             this.Column4});
             this.dataGridView1.Location = new System.Drawing.Point(65, 82);
@@ -384,19 +393,36 @@
             this.dataGridView1.Size = new System.Drawing.Size(1614, 404);
             this.dataGridView1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1711, 924);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(175, 88);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "VOLVER CENTRAL";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "CODIGO";
             this.Column1.MinimumWidth = 8;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 450;
+            this.Column1.Width = 400;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "FECHA DE INGRESO";
             this.Column2.MinimumWidth = 8;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 450;
+            this.Column2.Width = 350;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "HORA DE INGRESO";
+            this.Column5.MinimumWidth = 8;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 250;
             // 
             // Column3
             // 
@@ -410,24 +436,7 @@
             this.Column4.HeaderText = "ESTADO";
             this.Column4.MinimumWidth = 8;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 350;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1521, 813);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 88);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "VOLVER CENTRAL";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // centralToolStripMenuItem
-            // 
-            this.centralToolStripMenuItem.Name = "centralToolStripMenuItem";
-            this.centralToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.centralToolStripMenuItem.Text = "Central";
-            this.centralToolStripMenuItem.Click += new System.EventHandler(this.centralToolStripMenuItem_Click);
+            this.Column4.Width = 250;
             // 
             // HistorialNotaIngreso
             // 
@@ -453,10 +462,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.ToolStripMenuItem móduloDeProduccionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenDeProduccionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem1;
@@ -495,5 +500,10 @@
         private System.Windows.Forms.ToolStripMenuItem historialDeReporteToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem centralToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

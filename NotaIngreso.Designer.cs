@@ -68,18 +68,9 @@
             this.pedidoDeMaterialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.centralToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txt_CodigoNI = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.linkLabelAgregarItem = new System.Windows.Forms.LinkLabel();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -93,6 +84,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.contextMenuStrip3.SuspendLayout();
@@ -130,25 +122,26 @@
             this.toolStripMenuItem4,
             this.toolStripMenuItem5});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem2.Text = "Nota de Ingreso";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem3.Text = "Registrar N.I.";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem4.Text = "Anular N.I.";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(214, 34);
             this.toolStripMenuItem5.Text = "Historial N.I.";
             // 
             // toolStripMenuItem6
@@ -158,25 +151,25 @@
             this.toolStripMenuItem8,
             this.historialDeNSToolStripMenuItem});
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem6.Text = "Nota de Salida";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(240, 34);
             this.toolStripMenuItem7.Text = "Registrar N.S.";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(240, 34);
             this.toolStripMenuItem8.Text = "Anular N.S.";
             // 
             // historialDeNSToolStripMenuItem
             // 
             this.historialDeNSToolStripMenuItem.Name = "historialDeNSToolStripMenuItem";
-            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.historialDeNSToolStripMenuItem.Size = new System.Drawing.Size(240, 34);
             this.historialDeNSToolStripMenuItem.Text = "Historial de N.S.";
             // 
             // toolStripMenuItem9
@@ -187,7 +180,7 @@
             this.historialDeConsumoToolStripMenuItem,
             this.consultarEstadoInventarioToolStripMenuItem});
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem9.Text = "Inventario";
             // 
             // materialesToolStripMenuItem
@@ -228,7 +221,7 @@
             this.toolStripMenuItem11,
             this.historialDeReporteToolStripMenuItem});
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(269, 34);
             this.toolStripMenuItem10.Text = "Reporte de Material";
             // 
             // toolStripMenuItem11
@@ -246,7 +239,7 @@
             // centralToolStripMenuItem
             // 
             this.centralToolStripMenuItem.Name = "centralToolStripMenuItem";
-            this.centralToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.centralToolStripMenuItem.Size = new System.Drawing.Size(269, 34);
             this.centralToolStripMenuItem.Text = "Central";
             // 
             // móduloDeProduccionToolStripMenuItem
@@ -380,18 +373,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txt_CodigoNI);
-            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 110);
             this.groupBox1.Name = "groupBox1";
@@ -400,101 +385,30 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "REGISTRAR NUEVO NOTA DE INGRESO";
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(1485, 282);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(309, 40);
-            this.textBox5.TabIndex = 11;
-            // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(1485, 184);
+            this.textBox4.Location = new System.Drawing.Point(1460, 136);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(309, 40);
             this.textBox4.TabIndex = 10;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(1485, 101);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(309, 40);
-            this.textBox3.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1207, 280);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 32);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Moneda";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1207, 192);
+            this.label5.Location = new System.Drawing.Point(1207, 144);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(211, 32);
             this.label5.TabIndex = 7;
             this.label5.Text = "Operario Almacén:";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1207, 101);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 32);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Proveedor:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(386, 277);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(333, 40);
-            this.textBox2.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(125, 285);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(186, 32);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Tipo de Ingreso:";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 192);
+            this.label2.Location = new System.Drawing.Point(125, 144);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(201, 32);
             this.label2.TabIndex = 3;
             this.label2.Text = "Fecha de Ingreso:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(386, 184);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(333, 40);
-            this.textBox1.TabIndex = 2;
-            // 
-            // txt_CodigoNI
-            // 
-            this.txt_CodigoNI.Location = new System.Drawing.Point(386, 98);
-            this.txt_CodigoNI.Name = "txt_CodigoNI";
-            this.txt_CodigoNI.Size = new System.Drawing.Size(333, 40);
-            this.txt_CodigoNI.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 101);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Código:";
             // 
             // tableLayoutPanel1
             // 
@@ -503,7 +417,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.97216F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 287F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 292F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 283F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284F));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 563);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
@@ -600,13 +514,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1570, 890);
+            this.button1.Location = new System.Drawing.Point(1711, 927);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 88);
             this.button1.TabIndex = 8;
             this.button1.Text = "VOLVER CENTRAL";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(388, 138);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(450, 40);
+            this.dateTimePicker1.TabIndex = 11;
             // 
             // NotaIngreso
             // 
@@ -640,18 +561,9 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox txt_CodigoNI;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.LinkLabel linkLabelAgregarItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
@@ -702,5 +614,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem centralToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem centralToolStripMenuItem1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -158,5 +158,10 @@ namespace Laboratorio_Semana_02___Moanso
             C.Show();
             this.Close();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
